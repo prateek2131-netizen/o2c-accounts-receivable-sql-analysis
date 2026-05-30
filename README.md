@@ -1,46 +1,36 @@
 # O2C Accounts Receivable Analytics using SQL
 
-## Project Overview
+## Overview
 
-This project analyzes customer payment behavior, invoice disputes, settlement performance, invoice aging, and revenue concentration using SQL.
+SQL project focused on Accounts Receivable (AR) and Order-to-Cash (O2C) analytics using the IBM Finance Factoring dataset.
 
-The objective is to simulate real-world Accounts Receivable (AR) and Order-to-Cash (O2C) reporting scenarios commonly handled by Revenue Analysts, Reporting Analysts, O2C Analysts, and Financial Operations teams.
-
----
+The project analyzes customer payment behavior, invoice disputes, settlement performance, invoice aging, and customer risk using MySQL.
 
 ## Dataset
 
-**Dataset:** IBM Finance Factoring - Late Payment Histories
+**IBM Finance Factoring – Late Payment Histories**
 
-The dataset contains invoice-level information including:
+Key fields:
 
 * Customer ID
 * Country Code
 * Invoice Number
 * Invoice Amount
-* Invoice Date
-* Due Date
-* Settled Date
 * Days Late
 * Days To Settle
 * Disputed Status
-* Paperless Billing Status
 
----
+## Key Analysis
 
-## Business Objectives
+* Customer Payment Behavior Analysis
+* Invoice Aging Analysis
+* Customer Risk Classification
+* Dispute Analysis
+* Settlement Performance Analysis
+* Revenue Concentration Analysis
+* High-Value Late Customer Identification
 
-* Analyze customer payment behavior
-* Identify late-paying customers
-* Monitor invoice disputes
-* Evaluate settlement performance
-* Perform invoice aging analysis
-* Classify customer payment risk
-* Identify high-value customers and countries
-
----
-
-## SQL Skills Demonstrated
+## SQL Concepts Used
 
 * SELECT
 * WHERE
@@ -49,65 +39,13 @@ The dataset contains invoice-level information including:
 * HAVING
 * LIMIT
 * CASE WHEN
-* Aggregate Functions (COUNT, SUM, AVG)
-* Business KPI Analysis
+* COUNT(), SUM(), AVG()
 
----
-
-## Key Analysis Performed
-
-### Data Exploration
-
-* Total Invoices
-* Total Invoice Value
-* Average Days Late
-* Total Disputed Invoices
-
-### Customer Analysis
-
-* Top Customers by Invoice Value
-* Customers with Highest Average Payment Delays
-* Customers with Multiple Disputes
-* Customer Risk Classification
-
-### Dispute Analysis
-
-* Total Disputed Invoices
-* Total Disputed Invoice Value
-* Country-Level Dispute Analysis
-
-### Revenue Analysis
-
-* Top Countries by Invoice Value
-* High-Value Customers with Late Payments
-
-### Accounts Receivable Analysis
-
-* Invoice Aging Buckets
-* Settlement Time Analysis
-* Payment Behavior Categorization
-
----
-
-## Business Insights
-
-The project highlights how SQL can be used to generate actionable insights for Accounts Receivable and O2C operations by identifying:
-
-* High-risk customers
-* Revenue concentration
-* Collection risks
-* Dispute-heavy accounts
-* Payment performance trends
-
----
-
-## Tools Used
+## Tools
 
 * MySQL
 * SQL
 * GitHub
-
----
 
 ## Author
 
